@@ -1,0 +1,166 @@
+body {
+  font-family: "Noto Sans JP";
+}
+
+.xx{
+  font-family: "Sacramento";
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: "Noto Sans JP";
+}
+
+h3 {
+
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-heading{
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Sacramento";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Sacramento";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-family: "Sacramento";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 10%;
+
+}
+
+#title {
+  background-color: #e19999;
+  color: #888888;
+}
+
+#features {
+  padding: 7% 10%;
+  background-color: #fff;
+
+}
+
+.feature {
+  text-align: center;
+  padding: 4%;
+}
+
+.icon {
+  color: #dddddd;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #888888;
+}
+
+/* testimonial section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #f5a8a8;
+  color: #fff;
+}
+
+.test-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #f5a8a8;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #f5a8a8;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.cta-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.icon-footer{
+  margin: 20px 10px;
+}
+@@media (max-width:1020px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+  #title{
+    text-align: center;
+  }
+}
